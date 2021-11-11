@@ -48,7 +48,7 @@ public class LexAnalyze {
                         lexemes.add(new Lexeme(LexemeType.NUMBER, sb.toString()));
                     } else {
                         if (c != ' ') {
-                            throw new RuntimeException("Unexpected character: " + c);
+                            throw new RuntimeException("В уравнении присутствует недопустимый символ: " + c);
                         }
                         pos++;
                     }

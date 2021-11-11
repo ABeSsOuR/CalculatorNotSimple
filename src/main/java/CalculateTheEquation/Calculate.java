@@ -4,12 +4,6 @@ import LexemeClass.Lexeme;
 import LexemeClass.LexemeBuffer;
 import LexemeClass.LexemeType;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import static LexemeClass.LexemeType.LEFT_BRACKET;
-import static LexemeClass.LexemeType.NUMBER;
-
 public class Calculate {
 
     public static int expr(LexemeBuffer lexemes) {
